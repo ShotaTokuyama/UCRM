@@ -25,10 +25,10 @@ return [
   'before'               => ':attributeには、:dateより前の日付をご利用ください。',
   'before_or_equal'      => ':attributeには、:date以前の日付をご利用ください。',
   'between'              => [
-      'numeric' => ':attributeは、:minから:maxの間で指定してください。',
-      'file'    => ':attributeは、:min kBから、:max kBの間で指定してください。',
-      'string'  => ':attributeは、:min文字から、:max文字の間で指定してください。',
-      'array'   => ':attributeは、:min個から:max個の間で指定してください。',
+    'numeric' => ':attributeは、:minから:maxの間で指定してください。',
+    'file'    => ':attributeは、:min kBから、:max kBの間で指定してください。',
+    'string'  => ':attributeは、:min文字から、:max文字の間で指定してください。',
+    'array'   => ':attributeは、:min個から:max個の間で指定してください。',
   ],
   'boolean'              => ':attributeは、trueかfalseを指定してください。',
   'confirmed'            => ':attributeと、確認フィールドとが、一致していません。',
@@ -47,16 +47,16 @@ return [
   'file'                 => ':attributeにはファイルを指定してください。',
   'filled'               => ':attributeに値を指定してください。',
   'gt'                   => [
-      'numeric' => ':attributeには、:valueより大きな値を指定してください。',
-      'file'    => ':attributeには、:value kBより大きなファイルを指定してください。',
-      'string'  => ':attributeは、:value文字より長く指定してください。',
-      'array'   => ':attributeには、:value個より多くのアイテムを指定してください。',
+    'numeric' => ':attributeには、:valueより大きな値を指定してください。',
+    'file'    => ':attributeには、:value kBより大きなファイルを指定してください。',
+    'string'  => ':attributeは、:value文字より長く指定してください。',
+    'array'   => ':attributeには、:value個より多くのアイテムを指定してください。',
   ],
   'gte'                  => [
-      'numeric' => ':attributeには、:value以上の値を指定してください。',
-      'file'    => ':attributeには、:value kB以上のファイルを指定してください。',
-      'string'  => ':attributeは、:value文字以上で指定してください。',
-      'array'   => ':attributeには、:value個以上のアイテムを指定してください。',
+    'numeric' => ':attributeには、:value以上の値を指定してください。',
+    'file'    => ':attributeには、:value kB以上のファイルを指定してください。',
+    'string'  => ':attributeは、:value文字以上で指定してください。',
+    'array'   => ':attributeには、:value個以上のアイテムを指定してください。',
   ],
   'image'                => ':attributeには画像ファイルを指定してください。',
   'in'                   => '選択された:attributeは正しくありません。',
@@ -67,30 +67,30 @@ return [
   'ipv6'                 => ':attributeには、有効なIPv6アドレスを指定してください。',
   'json'                 => ':attributeには、有効なJSON文字列を指定してください。',
   'lt'                   => [
-      'numeric' => ':attributeには、:valueより小さな値を指定してください。',
-      'file'    => ':attributeには、:value kBより小さなファイルを指定してください。',
-      'string'  => ':attributeは、:value文字より短く指定してください。',
-      'array'   => ':attributeには、:value個より少ないアイテムを指定してください。',
+    'numeric' => ':attributeには、:valueより小さな値を指定してください。',
+    'file'    => ':attributeには、:value kBより小さなファイルを指定してください。',
+    'string'  => ':attributeは、:value文字より短く指定してください。',
+    'array'   => ':attributeには、:value個より少ないアイテムを指定してください。',
   ],
   'lte'                  => [
-      'numeric' => ':attributeには、:value以下の値を指定してください。',
-      'file'    => ':attributeには、:value kB以下のファイルを指定してください。',
-      'string'  => ':attributeは、:value文字以下で指定してください。',
-      'array'   => ':attributeには、:value個以下のアイテムを指定してください。',
+    'numeric' => ':attributeには、:value以下の値を指定してください。',
+    'file'    => ':attributeには、:value kB以下のファイルを指定してください。',
+    'string'  => ':attributeは、:value文字以下で指定してください。',
+    'array'   => ':attributeには、:value個以下のアイテムを指定してください。',
   ],
   'max'                  => [
-      'numeric' => ':attributeには、:max以下の数字を指定してください。',
-      'file'    => ':attributeには、:max kB以下のファイルを指定してください。',
-      'string'  => ':attributeは、:max文字以下で指定してください。',
-      'array'   => ':attributeは:max個以下指定してください。',
+    'numeric' => ':attributeには、:max以下の数字を指定してください。',
+    'file'    => ':attributeには、:max kB以下のファイルを指定してください。',
+    'string'  => ':attributeは、:max文字以下で指定してください。',
+    'array'   => ':attributeは:max個以下指定してください。',
   ],
   'mimes'                => ':attributeには:valuesタイプのファイルを指定してください。',
   'mimetypes'            => ':attributeには:valuesタイプのファイルを指定してください。',
   'min'                  => [
-      'numeric' => ':attributeには、:min以上の数字を指定してください。',
-      'file'    => ':attributeには、:min kB以上のファイルを指定してください。',
-      'string'  => ':attributeは、:min文字以上で指定してください。',
-      'array'   => ':attributeは:min個以上指定してください。',
+    'numeric' => ':attributeには、:min以上の数字を指定してください。',
+    'file'    => ':attributeには、:min kB以上のファイルを指定してください。',
+    'string'  => ':attributeは、:min文字以上で指定してください。',
+    'array'   => ':attributeは:min個以上指定してください。',
   ],
   'multiple_of' => ':attributeには、:valueの倍数を指定してください。',
   'not_in'               => '選択された:attributeは正しくありません。',
@@ -112,10 +112,10 @@ return [
   'prohibits'            => 'attributeは:otherの入力を禁じています。',
   'same'                 => ':attributeと:otherには同じ値を指定してください。',
   'size'                 => [
-      'numeric' => ':attributeは:sizeを指定してください。',
-      'file'    => ':attributeのファイルは、:sizeキロバイトでなくてはなりません。',
-      'string'  => ':attributeは:size文字で指定してください。',
-      'array'   => ':attributeは:size個指定してください。',
+    'numeric' => ':attributeは:sizeを指定してください。',
+    'file'    => ':attributeのファイルは、:sizeキロバイトでなくてはなりません。',
+    'string'  => ':attributeは:size文字で指定してください。',
+    'array'   => ':attributeは:size個指定してください。',
   ],
   'starts_with'          => ':attributeには、:valuesのどれかで始まる値を指定してください。',
   'string'               => ':attributeは文字列を指定してください。',
@@ -137,9 +137,9 @@ return [
   */
 
   'custom' => [
-      '属性名' => [
-          'ルール名' => 'カスタムメッセージ',
-      ],
+    '属性名' => [
+      'ルール名' => 'カスタムメッセージ',
+    ],
   ],
 
   /*
@@ -155,7 +155,10 @@ return [
 
   'attributes' => [
     'title' => '件名',
-    'content' => '本文'
+    'content' => '本文',
+    'name' => '商品名',
+    'memo' => 'メモ',
+    'price' => '商品価格'
   ],
 
 ];
