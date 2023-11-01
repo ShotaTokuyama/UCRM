@@ -60,12 +60,12 @@ defineProps({
                           {{ item.price }}
                         </td>
                         <td class="border-b-2 border-gray-200 px-4 py-3">
-                          <!-- <span v-if="item.is_selling ===
+                          <span v-if="item.is_selling ===
                             1
                             ">販売中</span>
                           <span v-if="item.is_selling ===
                             0
-                            ">停止中</span> -->
+                            ">停止中</span>
                         </td>
                       </tr>
                     </tbody>
